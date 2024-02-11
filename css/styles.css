@@ -698,12 +698,8 @@ p {
   top: 50%;
   transform: translateY(-50%);
   left: 16px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #2e2f42;
-}
-.input-icon:checked {
-  fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border: none;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-data:focus + .input-icon {
@@ -765,7 +761,7 @@ p {
 }
 
 .policy-check:focus + label > .checkbox-icon-select {
-  border: 2px solid #404bbf;
+  outline: 2px solid #404bbf;
 }
 
 .policy-link {
